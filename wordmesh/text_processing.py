@@ -20,7 +20,7 @@ except ModuleNotFoundError as e:
 
 import os
 import textacy
-from textacy.extract import named_entities
+from textacy.extract import entities as named_entities
 from textacy.keyterms import sgrank,key_terms_from_semantic_network
 import numpy as np
 
